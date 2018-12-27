@@ -1,2 +1,2 @@
 # canvas
-small webapp
+Small webapp that lets you draw with friends.
