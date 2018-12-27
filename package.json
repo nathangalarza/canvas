@@ -4,7 +4,7 @@
   "description": "Draw things with friends",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nathangalarza/Webapp-/issues"
   },
-  "homepage": "https://github.com/nathangalarza/Webapp-#readme"
+  "homepage": "https://github.com/nathangalarza/Webapp-#readme",
+  "dependencies": {
+    "electron": "^4.0.0"
+  }
 }
