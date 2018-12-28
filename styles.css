@@ -9,6 +9,15 @@
   background-image: url(images/Computerguy.gif);
 }
 
+.game-title{
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'GraublauWeb', sans-serif;
+    fill: white;
+    position: relative;
+}
 #myCanvas{
   border: 2px solid #000000;
   padding: 0;
@@ -21,14 +30,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: white;
+  background: #8C69A6;
 }
 
-.game-title{
-    text-align: center;
-    font-size: 80px;
-    color: white;
-    font-family: 'GraublauWeb', sans-serif;
-    fill: white;
-}
+
 
