@@ -1,8 +1,7 @@
 @font-face {
-    font-family: GraublauWeb;
-    font-weight: bold;
-    src: url("Fonts/THE_JACATRA.otf") format("opentype");
-}
+    font-family: 'Arcade';
+    src: URL('Fonts/ARCADE_R.TTF') format('truetype');
+  }
 
 
 #body{
@@ -12,11 +11,11 @@
 .game-title{
     margin: 0;
     text-align: center;
-    font-size: 80px;
-    color: white;
-    font-family: 'GraublauWeb', sans-serif;
-    fill: white;
+    font-size: 100px;
+    font-family: 'Arcade';
     position: relative;
+    letter-spacing: 2px;
+    color: aliceblue;
 }
 #myCanvas{
   border: 2px solid #000000;
