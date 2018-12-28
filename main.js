@@ -10,6 +10,7 @@ let mainWindow;
 app.on('ready', function(){
     mainWindow = new BrowserWindow({});
     mainWindow.setSize(1200, 900, true);
+    mainWindow.setMinimumSize(1000,850);
 
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'canvasWindow.html'), //this will change to a login in the future
