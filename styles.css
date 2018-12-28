@@ -1,24 +1,36 @@
-* {
-    box-sizing: border-box;
-    font-family: Roboto;
+@font-face {
+    font-family: 'Arcade';
+    src: URL('Fonts/ARCADE_R.TTF') format('truetype');
   }
-  
-  html, body {
+
+
+#body{
+  background-image: url(images/Computerguy.gif);
+}
+
+.game-title{
     margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-
-  #wrapper {
-    min-height: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Arcade';
     position: relative;
-  }
-  
-  #content {
-    padding-bottom: 76px;
-    text-align: center;
-  }
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+#myCanvas{
+  border: 2px solid #000000;
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8C69A6;
+}
 
-  .something{
-    text-align: center;
-  }
+
+
