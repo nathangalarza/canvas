@@ -6,11 +6,13 @@ const {app, BrowserWindow} = electron;
 
 let mainWindow;
 
+//When the application starts, it sets the default window size and also loads the start window
 app.on('ready', function(){
     mainWindow = new BrowserWindow({});
+    mainWindow.setSize(1000, 800, true);
 
     mainWindow.loadURL(url.format({
-        pathname: path.join(__dirname, 'mainWindow.html'),
+        pathname: path.join(__dirname, 'canvasWindow.html'), //this will change to a login in the future
         protocol:'file:',
         slashes: true
     }));
