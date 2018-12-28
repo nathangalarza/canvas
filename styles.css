@@ -1,6 +1,12 @@
+@font-face {
+    font-family: GraublauWeb;
+    font-weight: bold;
+    src: url("Fonts/THE_JACATRA.otf") format("opentype");
+}
+
 
 #body{
-  background-image: url(images/Mountain.gif);
+  background-image: url(images/Computerguy.gif);
 }
 
 #myCanvas{
@@ -16,5 +22,13 @@
   left: 0;
   right: 0;
   background: white;
+}
+
+.game-title{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'GraublauWeb', sans-serif;
+    fill: white;
 }
 
