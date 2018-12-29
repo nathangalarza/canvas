@@ -34,7 +34,22 @@
 }
 
 .btn{
-  background-image: url("images\button.png");
+  background-color: #8C69A6;
+  color: white;
+  border: 2px solid #000000; /* Green */
   width: 100px;
   height: 50px;
+  margin-top: 70px;
+  margin-left: 258px;
+  border-radius: 8px;
+  
+}
+
+.btn:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.btn:active {
+  transform: translateX(-8px);
 }
