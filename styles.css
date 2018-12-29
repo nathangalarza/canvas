@@ -31,10 +31,7 @@
   left: 0;
   right: 0;
   background: #8C69A6;
-}
-
-.tools{
-
+  display: flex;
 }
 
 .btn{
