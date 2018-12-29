@@ -33,13 +33,8 @@
   background: #8C69A6;
 }
 
-
 .btn{
-
- background-image: url("images\button.png");
-  cursor:pointer;
+  background-image: url("images\button.png");
   width: 100px;
   height: 50px;
-  position: fixed;
-
 }
