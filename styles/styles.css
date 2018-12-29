@@ -8,29 +8,41 @@ body{
   background-image: url(../images/Computerguy.gif);
 }
 
-.canvas-container {
+.canvas-information-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .buttons {
-  margin-top: 50px;
+  display: flex;
 }
+
 .game-title{
     margin: 0;
     text-align: center;
     font-size: 100px;
     font-family: 'Arcade';
+    position: relative;
     color: aliceblue;
-  
+    /* some error on the commit history doesn't let me put the new changes. Delete the comment please */
 }
+
 
 #myCanvas{
   border: 4px solid #000000;
   padding: 0;
+  margin: auto;
+  display: block;
   width: 50%;
   height: 600px;
+  position: absolute;
+  top: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: #8C69A6;
+  display: flex;
 }
 
 .btn{

@@ -13,7 +13,7 @@ app.on('ready', function(){
     mainWindow.setMinimumSize(1000,850);
 
     mainWindow.loadURL(url.format({
-        pathname: path.join(__dirname, 'canvasWindow.html'), //this will change to a login in the future
+        pathname: path.join(__dirname, 'index.html'), //this will change to a login in the future
         protocol:'file:',
         slashes: true
     }));
