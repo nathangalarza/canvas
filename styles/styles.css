@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Arcade';
-    src: URL('Fonts/ARCADE_R.TTF') format('truetype');
+    src: URL('../Fonts/ARCADE_R.TTF') format('truetype');
   }
 
 
@@ -34,7 +34,7 @@ body{
   padding: 0;
   margin: auto;
   display: block;
-  width: 50%;
+  width: 800px;
   height: 600px;
   position: absolute;
   top: 200px;

@@ -9,6 +9,9 @@ tool = new tool_pencil();
 canvas.addEventListener('mousedown', ev_canvas, false);
 canvas.addEventListener('mousemove', ev_canvas, false);
 canvas.addEventListener('mouseup',	 ev_canvas, false);
+canvas.addEventListener('mouseleave', ev_canvas, false);
+
+
 canvas.setAttribute('width','800');
 canvas.setAttribute('height', '600');
 console.log(canvas.width);
@@ -45,6 +48,12 @@ function tool_pencil () {
 			tool.started = false;
 		}
 	};
+
+	this.mouseleave = function (ev) {
+		if(tool.started){
+			tool.started = false;
+		}
+	}
 }
 
 function ev_canvas (ev) {
